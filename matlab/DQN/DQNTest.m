@@ -8,9 +8,6 @@ actInfo1 = getActionInfo(env1);
 
 rng(0)
 
-episode_2state = [];
-episode_5state = [];
-
 %% Network
 dnn1 = [
     featureInputLayer(obsInfo1.Dimension(1),'Normalization','none','Name','state')
@@ -41,12 +38,9 @@ trainOpts = rlTrainingOptions(...
     'StopTrainingCriteria','AverageReward',...
     'StopTrainingValue',480);
 
-for i=1:5
-    trainingStats = train(agent1, env1, trainOpts);
-    episode_2state = [episode_2state length(trainingStats.EpisodeIndex)];
-    agent1 = rlDQNAgent(critic,agentOpts);
-    close all;
-end
+plot(env1)
+trainingStats = train(agent1, env1, trainOpts);
+episode_2state = length(trainingStats.EpisodeIndex);
 
 obsInfo2 = getObservationInfo(env2);
 actInfo2 = getActionInfo(env2);
@@ -65,11 +59,9 @@ critic = rlQValueRepresentation(dnn2,obsInfo2,actInfo2,'Observation',{'state'},c
 
 agent2 = rlDQNAgent(critic,agentOpts);
 
-for i=1:5
-    trainingStats = train(agent2, env2, trainOpts);
-    episode_5state = [episode_5state length(trainingStats.EpisodeIndex)];
-    agent2 = rlDQNAgent(critic,agentOpts);
-    close all;
-end
+plot(env2);
+trainingStats = train(agent2, env2, trainOpts);
+episode_5state = length(trainingStats.EpisodeIndex);
 
 save("episode_number.mat", "episode_2state", "episode_5state");
+save("agent_saver.mat", "agent1", "agent2");
