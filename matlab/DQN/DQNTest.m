@@ -1,12 +1,17 @@
 clear; clc; close;
 
+trial = "trial2";
+
+if ~isfolder("LearningResult\" + trial)
+    mkdir("LearningResult\" + trial);
+end
 env1 = rlPredefinedEnv("CartPole-Discrete");
 env2 = CartPoleDiscreteAction2;
 
 obsInfo1 = getObservationInfo(env1);
 actInfo1 = getActionInfo(env1);
 
-rng(0)
+rng(1)
 
 %% Network
 dnn1 = [
@@ -63,5 +68,5 @@ plot(env2);
 trainingStats = train(agent2, env2, trainOpts);
 episode_5state = length(trainingStats.EpisodeIndex);
 
-save("episode_number.mat", "episode_2state", "episode_5state");
-save("agent_saver.mat", "agent1", "agent2");
+save("LearningResult\" + trial + "\episode_number.mat", "episode_2state", "episode_5state");
+save("LearningResult\" + trial + "\agent_saver.mat", "agent1", "agent2");

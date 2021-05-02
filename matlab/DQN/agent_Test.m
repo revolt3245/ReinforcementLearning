@@ -1,10 +1,16 @@
 clear; clc; close;
 
+trial = "trial2";
+
+if ~isfolder("ExperienceResult\" + trial)
+    mkdir("ExperienceResult\" + trial);
+end
+
 env1 = rlPredefinedEnv("CartPole-Discrete");
 env2 = CartPoleDiscreteAction2;
 
 plot(env1);plot(env2);
-load("agent_saver.mat");
+load("LearningResult\" + trial + "\agent_saver.mat");
 
 simOptions = rlSimulationOptions('MaxSteps', 500);
 
@@ -37,7 +43,7 @@ h2 = legend("$F$");
 h2.Interpreter = 'latex';
 title("Action of 5-action-state environment");
 
-saveas(f1, "ExperienceResult\trial1\2state_obs.png");
-saveas(f2, "ExperienceResult\trial1\2state_act.png");
-saveas(f3, "ExperienceResult\trial1\5state_obs.png");
-saveas(f4, "ExperienceResult\trial1\5state_act.png");
+saveas(f1, "ExperienceResult\" + trial + "\2state_obs.png");
+saveas(f2, "ExperienceResult\" + trial + "\2state_act.png");
+saveas(f3, "ExperienceResult\" + trial + "\5state_obs.png");
+saveas(f4, "ExperienceResult\" + trial + "\5state_act.png");
