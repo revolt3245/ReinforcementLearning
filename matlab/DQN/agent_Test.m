@@ -1,6 +1,6 @@
 clear; clc; close;
 
-trial = "trial2";
+trial = "trial3";
 
 if ~isfolder("ExperienceResult\" + trial)
     mkdir("ExperienceResult\" + trial);

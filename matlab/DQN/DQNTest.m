@@ -1,6 +1,6 @@
 clear; clc; close;
 
-trial = "trial2";
+trial = "trial4";
 
 if ~isfolder("LearningResult\" + trial)
     mkdir("LearningResult\" + trial);
@@ -41,7 +41,7 @@ trainOpts = rlTrainingOptions(...
     'Verbose',false, ...
     'Plots','training-progress',...
     'StopTrainingCriteria','AverageReward',...
-    'StopTrainingValue',480);
+    'StopTrainingValue',980);
 
 plot(env1)
 trainingStats = train(agent1, env1, trainOpts);
