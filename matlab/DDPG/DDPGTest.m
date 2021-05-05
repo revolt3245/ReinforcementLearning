@@ -2,7 +2,7 @@ clear; clc; close;
 
 % Env = rlPredefinedEnv("CartPole-Continuous");
 Env = CartPoleContinuousAction2;
-Env.PenaltyForFalling = -5;
+% Env.PenaltyForFalling = -5;
 
 ObsInfo = Env.getObservationInfo;
 ActInfo = Env.getActionInfo;

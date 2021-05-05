@@ -13,7 +13,7 @@ classdef CartPoleContinuousAction2 < rl.env.CartPoleAbstract
             this = this@rl.env.CartPoleAbstract(ActionInfo);
             
             this.RewardForNotFalling = 1;
-            this.PenaltyForFalling = -50;
+            this.PenaltyForFalling = -5;
             
             updateActionInfo(this);
         end      
