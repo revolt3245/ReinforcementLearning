@@ -44,7 +44,7 @@ ActorNetwork = [
     reluLayer('Name', 'ActorReLU1')
     fullyConnectedLayer(24, 'Name', 'ActorL2')
     reluLayer('Name', 'ActorReLU2')
-    fullyConnectedLayer(1, 'Name', 'ActorL3')
+    fullyConnectedLayer(ActInfo.Dimension(1), 'Name', 'ActorL3')
     tanhLayer('Name', 'ActorTanh1')
     scalingLayer('Name', 'ActorScaling', 'Scale', ActInfo.UpperLimit)
     ];
