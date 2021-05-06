@@ -32,10 +32,15 @@ classdef CartPoleContinuousAction2 < rl.env.CartPoleAbstract
         % Further from the goal less reward        
         function Reward = getReward(this,~,~)
             if ~this.IsDone
-                Reward = this.RewardForNotFalling;
+                % Reward = this.RewardForNotFalling;
+                Q = diag([5 1 0.01 0.01]);
+                
+                x = this.State;
+                
+                Reward = this.RewardForNotFalling -x'*Q*x/2;
             else
                 Reward = this.PenaltyForFalling;
-            end        
+            end
         end        
     end    
 end
