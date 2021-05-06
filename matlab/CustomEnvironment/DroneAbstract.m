@@ -58,7 +58,7 @@ classdef (Abstract) DroneAbstract < rl.env.MATLABEnvironment
         Reward = getReward(this,x,force)
     end    
     methods                
-        function this = CartPoleAbstract(ActionInfo)
+        function this = DroneAbstract(ActionInfo)
             ObservationInfo = rlNumericSpec([4 1]);
             ObservationInfo.Name = 'CartPole States';
             ObservationInfo.Description = 'x, dx, theta, dtheta';
@@ -170,7 +170,7 @@ classdef (Abstract) DroneAbstract < rl.env.MATLABEnvironment
         function varargout = plot(this)
             % Visualizes the environment
             if isempty(this.Visualizer) || ~isvalid(this.Visualizer)
-                this.Visualizer = rl.env.viz.CartPoleVisualizer(this);
+                this.Visualizer = DroneVisualizer(this);
             else
                 bringToFront(this.Visualizer);
             end
