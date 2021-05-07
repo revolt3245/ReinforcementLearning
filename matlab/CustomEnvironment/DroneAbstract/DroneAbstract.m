@@ -60,7 +60,7 @@ classdef (Abstract) DroneAbstract < rl.env.MATLABEnvironment
     methods                
         function this = DroneAbstract(ActionInfo)
             ObservationInfo = rlNumericSpec([4 1]);
-            ObservationInfo.Name = 'CartPole States';
+            ObservationInfo.Name = 'Drone States';
             ObservationInfo.Description = 'x, dx, theta, dtheta';
             this = this@rl.env.MATLABEnvironment(ObservationInfo,ActionInfo); 
         end
