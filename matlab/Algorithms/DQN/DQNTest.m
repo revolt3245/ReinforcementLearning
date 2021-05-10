@@ -1,6 +1,6 @@
 clear; clc; close;
 
-trial = "trial4";
+trial = "trial5";
 
 if ~isfolder("LearningResult\" + trial)
     mkdir("LearningResult\" + trial);
@@ -41,11 +41,11 @@ trainOpts = rlTrainingOptions(...
     'Verbose',false, ...
     'Plots','training-progress',...
     'StopTrainingCriteria','AverageReward',...
-    'StopTrainingValue',980);
+    'StopTrainingValue',480);
 
 plot(env1)
-trainingStats = train(agent1, env1, trainOpts);
-episode_2state = length(trainingStats.EpisodeIndex);
+%trainingStats = train(agent1, env1, trainOpts);
+%episode_2state = length(trainingStats.EpisodeIndex);
 
 obsInfo2 = getObservationInfo(env2);
 actInfo2 = getActionInfo(env2);
@@ -68,5 +68,6 @@ plot(env2);
 trainingStats = train(agent2, env2, trainOpts);
 episode_5state = length(trainingStats.EpisodeIndex);
 
-save("LearningResult\" + trial + "\episode_number.mat", "episode_2state", "episode_5state");
-save("LearningResult\" + trial + "\agent_saver.mat", "agent1", "agent2");
+%save("LearningResult\" + trial + "\episode_number.mat", "episode_2state", "episode_5state");
+%save("LearningResult\" + trial + "\agent_saver.mat", "agent1", "agent2");
+save("LearningResult\" + trial + "\training_res.mat", trainingStats);

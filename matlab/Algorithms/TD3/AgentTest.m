@@ -1,11 +1,13 @@
 clear; clc; close;
 
-if ~isfolder("LearningResult")
-    mkdir("LearningResult");
+trial = 'trial2';
+
+if ~isfolder("LearningResult\" + trial)
+    mkdir("LearningResult\" + trial);
 end
 
 Env = CartPoleContinuousAction2;
-load('agent_saver.mat');
+load("AgentResult\" + trial + "\agent_saver.mat");
 
 SimOpts = rlSimulationOptions('MaxSteps', 500);
 
@@ -51,4 +53,4 @@ ylabel(ax_Xdot, 'velocity [m/s]', 'FontSize', 11);
 ylabel(ax_T, 'angle [rad]', 'FontSize', 11);
 ylabel(ax_Tdot, 'angular velocity [rad/s]', 'FontSize', 11);
 
-saveas(gcf, "LearningResult\ObservationGraph.fig");
+saveas(gcf, "LearningResult\" + trial + "\ObservationGraph.fig");

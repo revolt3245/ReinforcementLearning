@@ -24,7 +24,7 @@ Tdot = reshape(Observation.Data(4,:,:), 1, L);
 
 t = tiledlayout(2, 2);
 
-Title = title(t, "Observations", 'FontSize', 15);
+Title = title(t, "Observations", 'FontSize', 30, 'FontWeight', 'bold');
 
 ax_X = nexttile;
 ax_Xdot = nexttile;
@@ -36,19 +36,19 @@ plot(ax_Xdot, Xdot, 'Color', [0 0 1]); ax_Xdot.XLim = [0 500];
 plot(ax_T, T, 'Color', [0 0 1]); ax_T.XLim = [0 500];
 plot(ax_Tdot, Tdot, 'Color', [0 0 1]); ax_Tdot.XLim = [0 500];
 
-title(ax_X, '$x$', 'Interpreter', 'latex', 'FontSize', 12);
-title(ax_Xdot, '$\dot{x}$', 'Interpreter', 'latex', 'FontSize', 12);
-title(ax_T, '$\theta$', 'Interpreter', 'latex', 'FontSize', 12);
-title(ax_Tdot, '$\dot{\theta}$', 'Interpreter', 'latex', 'FontSize', 12);
+title(ax_X, '$x$', 'Interpreter', 'latex', 'FontSize', 25, 'FontWeight', 'bold');
+title(ax_Xdot, '$\dot{x}$', 'Interpreter', 'latex', 'FontSize', 25, 'FontWeight', 'bold');
+title(ax_T, '$\theta$', 'Interpreter', 'latex', 'FontSize', 25, 'FontWeight', 'bold');
+title(ax_Tdot, '$\dot{\theta}$', 'Interpreter', 'latex', 'FontSize', 25, 'FontWeight', 'bold');
 
-xlabel(ax_X, 'step', 'FontSize', 11);
-xlabel(ax_Xdot, 'step', 'FontSize', 11);
-xlabel(ax_T, 'step', 'FontSize', 11);
-xlabel(ax_Tdot, 'step', 'FontSize', 11);
+xlabel(ax_X, 'step', 'FontSize', 15, 'FontWeight', 'bold');
+xlabel(ax_Xdot, 'step', 'FontSize', 15, 'FontWeight', 'bold');
+xlabel(ax_T, 'step', 'FontSize', 15, 'FontWeight', 'bold');
+xlabel(ax_Tdot, 'step', 'FontSize', 15, 'FontWeight', 'bold');
 
-ylabel(ax_X, 'position [m]', 'FontSize', 11);
-ylabel(ax_Xdot, 'velocity [m/s]', 'FontSize', 11);
-ylabel(ax_T, 'angle [rad]', 'FontSize', 11);
-ylabel(ax_Tdot, 'angular velocity [rad/s]', 'FontSize', 11);
+ylabel(ax_X, 'position [m]', 'FontSize', 15, 'FontWeight', 'bold');
+ylabel(ax_Xdot, 'velocity [m/s]', 'FontSize', 15, 'FontWeight', 'bold');
+ylabel(ax_T, 'angle [rad]', 'FontSize', 15, 'FontWeight', 'bold');
+ylabel(ax_Tdot, 'angular velocity [rad/s]', 'FontSize', 15, 'FontWeight', 'bold');
 
 saveas(gcf, "LearningResult\ObservationGraph.fig");

@@ -4,12 +4,18 @@ if ~isfile('CartPoleContinuousAction2.m')
     copyfile('..\..\CustomEnvironment\CartPole\CartPoleContinuousAction2.m', pwd);
 end
 
+trial = 'trial2';
+
+if ~isfolder("AgentResult\" + trial)
+    mkdir("AgentResult\" + trial)
+end
+
 Env = CartPoleContinuousAction2;
 
 ObsInfo = Env.getObservationInfo;
 ActInfo = Env.getActionInfo;
 
-rng(1);
+rng(0);
 
 %% Critic Network
 StatePath = [
@@ -77,5 +83,5 @@ TrainOpts = rlTrainingOptions(...
 plot(Env);
 TrainingStats = train(Agent, Env, TrainOpts);
 
-save('agent_saver.mat', 'Agent');
-save('train_res.mat', 'TrainingStats');
+save("AgentResult\" + trial + "\agent_saver.mat", 'Agent');
+save("AgentResult\" + trial + "\train_res.mat", 'TrainingStats');

@@ -1,49 +1,56 @@
 clear; clc; close;
 
-trial = "trial3";
+trial = "trial5";
 
 if ~isfolder("ExperienceResult\" + trial)
     mkdir("ExperienceResult\" + trial);
 end
 
-env1 = rlPredefinedEnv("CartPole-Discrete");
-env2 = CartPoleDiscreteAction2;
-
-plot(env1);plot(env2);
+Env = CartPoleDiscreteAction2;
 load("LearningResult\" + trial + "\agent_saver.mat");
 
-simOptions = rlSimulationOptions('MaxSteps', 500);
+SimOpts = rlSimulationOptions('MaxSteps', 500);
 
-experience1 = sim(env1, agent1, simOptions);
-experience2 = sim(env2, agent2, simOptions);
+plot(Env);
 
-%% env1
-f1 = figure(3);
-plot(experience1.Observation.CartPoleStates);
-h1 = legend("$x$", "$\dot{x}$", "$\theta$", "$\dot{\theta}$");
-h1.Interpreter = 'latex';
-title("Observation of 2-action-state environment");
+SimResult = sim(Env, agent2, SimOpts);
 
-f2 = figure(4);
-plot(experience1.Action.CartPoleAction);
-h1 = legend("$F$");
-h1.Interpreter = 'latex';
-title("Action of 2-action-state environment");
+Observation = SimResult.Observation.CartPoleStates;
+Action = SimResult.Action.CartPoleAction;
 
-%%env2
-f3 = figure(5);
-plot(experience2.Observation.CartPoleStates);
-h2 = legend("$x$", "$\dot{x}$", "$\theta$", "$\dot{\theta}$");
-h2.Interpreter = 'latex';
-title("Observation of 5-action-state environment");
+L = length(Observation.Data);
+X = reshape(Observation.Data(1,:,:), 1, L);
+Xdot = reshape(Observation.Data(2,:,:), 1, L);
+T = reshape(Observation.Data(3,:,:), 1, L);
+Tdot = reshape(Observation.Data(4,:,:), 1, L);
 
-f4 = figure(6);
-plot(experience2.Action.CartPoleAction);
-h2 = legend("$F$");
-h2.Interpreter = 'latex';
-title("Action of 5-action-state environment");
+t = tiledlayout(2, 2);
 
-saveas(f1, "ExperienceResult\" + trial + "\2state_obs.png");
-saveas(f2, "ExperienceResult\" + trial + "\2state_act.png");
-saveas(f3, "ExperienceResult\" + trial + "\5state_obs.png");
-saveas(f4, "ExperienceResult\" + trial + "\5state_act.png");
+Title = title(t, "Observations", 'FontSize', 30, 'FontWeight', 'bold');
+
+ax_X = nexttile;
+ax_Xdot = nexttile;
+ax_T = nexttile;
+ax_Tdot = nexttile;
+
+plot(ax_X, X, 'Color', [0 0 1]); ax_X.XLim = [0 500];
+plot(ax_Xdot, Xdot, 'Color', [0 0 1]); ax_Xdot.XLim = [0 500];
+plot(ax_T, T, 'Color', [0 0 1]); ax_T.XLim = [0 500];
+plot(ax_Tdot, Tdot, 'Color', [0 0 1]); ax_Tdot.XLim = [0 500];
+
+title(ax_X, '$x$', 'Interpreter', 'latex', 'FontSize', 25, 'FontWeight', 'bold');
+title(ax_Xdot, '$\dot{x}$', 'Interpreter', 'latex', 'FontSize', 25, 'FontWeight', 'bold');
+title(ax_T, '$\theta$', 'Interpreter', 'latex', 'FontSize', 25, 'FontWeight', 'bold');
+title(ax_Tdot, '$\dot{\theta}$', 'Interpreter', 'latex', 'FontSize', 25, 'FontWeight', 'bold');
+
+xlabel(ax_X, 'step', 'FontSize', 15, 'FontWeight', 'bold');
+xlabel(ax_Xdot, 'step', 'FontSize', 15, 'FontWeight', 'bold');
+xlabel(ax_T, 'step', 'FontSize', 15, 'FontWeight', 'bold');
+xlabel(ax_Tdot, 'step', 'FontSize', 15, 'FontWeight', 'bold');
+
+ylabel(ax_X, 'position [m]', 'FontSize', 15, 'FontWeight', 'bold');
+ylabel(ax_Xdot, 'velocity [m/s]', 'FontSize', 15, 'FontWeight', 'bold');
+ylabel(ax_T, 'angle [rad]', 'FontSize', 15, 'FontWeight', 'bold');
+ylabel(ax_Tdot, 'angular velocity [rad/s]', 'FontSize', 15, 'FontWeight', 'bold');
+
+saveas(gcf, "ExperienceResult\" + trial + "\ObservationGraph.fig");
