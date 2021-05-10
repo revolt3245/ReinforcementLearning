@@ -1,0 +1,869 @@
+﻿  main.cpp
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\macros\Macros.h(189,20): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Exception.h(28,45): warning C4275: DLL 인터페이스가 아닌 class 'std::exception'이(가) DLL 인터페이스 class 'c10::Error'의 기본으로 사용되었습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vcruntime_exception.h(48): message : 'std::exception' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Exception.h(28): message : 'c10::Error' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Exception.h(30,19): warning C4251: 'c10::Error::msg_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'c10::Error'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Exception.h(35,36): warning C4251: 'c10::Error::context_': class 'std::vector<std::string,std::allocator<std::string>>'에서는 class 'c10::Error'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Exception.h(35): message : 'std::vector<std::string,std::allocator<std::string>>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Exception.h(40,25): warning C4251: 'c10::Error::backtrace_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'c10::Error'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Exception.h(47,20): warning C4251: 'c10::Error::what_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'c10::Error'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Exception.h(48,38): warning C4251: 'c10::Error::what_without_backtrace_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'c10::Error'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\ThreadLocalDebugInfo.h(55,39): warning C4251: 'c10::ThreadLocalDebugInfo::info_': class 'std::shared_ptr<c10::DebugInfoBase>'에서는 class 'c10::ThreadLocalDebugInfo'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\ThreadLocalDebugInfo.h(46): message : 'std::shared_ptr<c10::DebugInfoBase>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\ThreadLocalDebugInfo.h(57,53): warning C4251: 'c10::ThreadLocalDebugInfo::parent_info_': class 'std::shared_ptr<c10::ThreadLocalDebugInfo>'에서는 class 'c10::ThreadLocalDebugInfo'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\ThreadLocalDebugInfo.h(39): message : 'std::shared_ptr<c10::ThreadLocalDebugInfo>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\ThreadLocalDebugInfo.h(83,52): warning C4251: 'c10::DebugInfoGuard::prev_info_': class 'std::shared_ptr<c10::ThreadLocalDebugInfo>'에서는 class 'c10::DebugInfoGuard'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\ThreadLocalDebugInfo.h(39): message : 'std::shared_ptr<c10::ThreadLocalDebugInfo>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\Allocator.h(22,34): warning C4251: 'c10::DataPtr::ptr_': class 'c10::detail::UniqueVoidPtr'에서는 class 'c10::DataPtr'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\UniqueVoidPtr.h(38): message : 'c10::detail::UniqueVoidPtr' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\Allocator.h(184,57): warning C4251: 'c10::InefficientStdFunctionContext::ptr_': class 'std::unique_ptr<void,std::function<void (void *)>>'에서는 struct 'c10::InefficientStdFunctionContext'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\Allocator.h(184): message : 'std::unique_ptr<void,std::function<void (void *)>>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Half-inl.h(173,32): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Half-inl.h(176,32): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Half-inl.h(179,32): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Half-inl.h(182,32): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Half-inl.h(186,28): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Half-inl.h(189,28): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Half-inl.h(192,28): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Half-inl.h(195,28): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Half-inl.h(201,32): warning C4244: '인수': 'int64_t'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Half-inl.h(204,32): warning C4244: '인수': 'int64_t'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Half-inl.h(207,32): warning C4244: '인수': 'int64_t'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Half-inl.h(210,32): warning C4244: '인수': 'int64_t'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Half-inl.h(214,28): warning C4244: '인수': 'int64_t'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Half-inl.h(217,28): warning C4244: '인수': 'int64_t'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Half-inl.h(220,28): warning C4244: '인수': 'int64_t'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Half-inl.h(223,28): warning C4244: '인수': 'int64_t'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\BFloat16-inl.h(177,36): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\BFloat16-inl.h(180,36): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\BFloat16-inl.h(183,36): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\BFloat16-inl.h(186,36): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\BFloat16-inl.h(190,32): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\BFloat16-inl.h(193,32): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\BFloat16-inl.h(196,32): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\BFloat16-inl.h(199,32): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\BFloat16-inl.h(205,36): warning C4244: '인수': 'int64_t'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\BFloat16-inl.h(208,36): warning C4244: '인수': 'int64_t'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\BFloat16-inl.h(211,36): warning C4244: '인수': 'int64_t'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\BFloat16-inl.h(214,36): warning C4244: '인수': 'int64_t'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\BFloat16-inl.h(218,32): warning C4244: '인수': 'int64_t'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\BFloat16-inl.h(221,32): warning C4244: '인수': 'int64_t'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\BFloat16-inl.h(224,32): warning C4244: '인수': 'int64_t'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\BFloat16-inl.h(227,32): warning C4244: '인수': 'int64_t'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\Scalar.h(176,6): warning C4251: 'c10::Scalar::v': union 'c10::Scalar::v_t'에서는 class 'c10::Scalar'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\Scalar.h(171): message : 'c10::Scalar::v_t' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\typeid.h(65,67): warning C4251: 'c10::IdWrapper<caffe2::TypeIdentifier,c10::util::type_index>::id_': struct 'c10::util::type_index'에서는 class 'c10::IdWrapper<caffe2::TypeIdentifier,c10::util::type_index>'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\TypeIndex.h(57): message : 'c10::util::type_index' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\typeid.h(501,45): warning C4251: 'caffe2::TypeMeta::nextTypeIndex': struct 'std::atomic<unsigned short>'에서는 class 'caffe2::TypeMeta'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\atomic(2783): message : 'std::atomic<unsigned short>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\typeid.h(480,1): warning C4267: '인수': 'size_t'에서 'const uint16_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\intrusive_ptr.h(75,40): warning C4251: 'c10::intrusive_ptr_target::refcount_': struct 'std::atomic<unsigned __int64>'에서는 class 'c10::intrusive_ptr_target'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\atomic(2789): message : 'std::atomic<unsigned __int64>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\intrusive_ptr.h(76,41): warning C4251: 'c10::intrusive_ptr_target::weakcount_': struct 'std::atomic<unsigned __int64>'에서는 class 'c10::intrusive_ptr_target'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\atomic(2789): message : 'std::atomic<unsigned __int64>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\Storage.h(151,48): warning C4251: 'c10::Storage::storage_impl_': class 'c10::intrusive_ptr<c10::StorageImpl,c10::detail::intrusive_target_default_null_type<TTarget>>'에서는 struct 'c10::Storage'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              TTarget=c10::StorageImpl
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\Storage.h(12): message : 'c10::intrusive_ptr<c10::StorageImpl,c10::detail::intrusive_target_default_null_type<TTarget>>' 선언을 참조하십시오.
+          with
+          [
+              TTarget=c10::StorageImpl
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\impl\LocalDispatchKeySet.h(52,27): warning C4251: 'c10::impl::LocalDispatchKeySet::included_': class 'c10::DispatchKeySet'에서는 struct 'c10::impl::LocalDispatchKeySet'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\DispatchKeySet.h(34): message : 'c10::DispatchKeySet' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\impl\LocalDispatchKeySet.h(53,27): warning C4251: 'c10::impl::LocalDispatchKeySet::excluded_': class 'c10::DispatchKeySet'에서는 struct 'c10::impl::LocalDispatchKeySet'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\DispatchKeySet.h(34): message : 'c10::DispatchKeySet' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\impl\LocalDispatchKeySet.h(88,26): warning C4251: 'c10::impl::IncludeDispatchKeyGuard::include_': class 'c10::DispatchKeySet'에서는 class 'c10::impl::IncludeDispatchKeyGuard'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\DispatchKeySet.h(34): message : 'c10::DispatchKeySet' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\impl\LocalDispatchKeySet.h(104,26): warning C4251: 'c10::impl::ExcludeDispatchKeyGuard::exclude_': class 'c10::DispatchKeySet'에서는 class 'c10::impl::ExcludeDispatchKeyGuard'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\DispatchKeySet.h(34): message : 'c10::DispatchKeySet' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\logging_is_not_google_glog.h(43,28): warning C4251: 'c10::MessageLogger::stream_': class 'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'c10::MessageLogger'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\iosfwd(222): message : 'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\TensorImpl.h(229,54): warning C4251: 'c10::VariableVersion::version_counter_': class 'c10::intrusive_ptr<c10::VariableVersion::VersionCounter,c10::detail::intrusive_target_default_null_type<TTarget>>'에서는 struct 'c10::VariableVersion'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              TTarget=c10::VariableVersion::VersionCounter
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\TensorImpl.h(229): message : 'c10::intrusive_ptr<c10::VariableVersion::VersionCounter,c10::detail::intrusive_target_default_null_type<TTarget>>' 선언을 참조하십시오.
+          with
+          [
+              TTarget=c10::VariableVersion::VersionCounter
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\TensorImpl.h(1722,62): warning C4251: 'c10::TensorImpl::autograd_meta_': class 'std::unique_ptr<c10::AutogradMetaInterface,std::default_delete<c10::AutogradMetaInterface>>'에서는 struct 'c10::TensorImpl'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\TensorImpl.h(157): message : 'std::unique_ptr<c10::AutogradMetaInterface,std::default_delete<c10::AutogradMetaInterface>>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\TensorImpl.h(1725,69): warning C4251: 'c10::TensorImpl::named_tensor_meta_': class 'std::unique_ptr<c10::NamedTensorMetaInterface,std::default_delete<c10::NamedTensorMetaInterface>>'에서는 struct 'c10::TensorImpl'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\TensorImpl.h(176): message : 'std::unique_ptr<c10::NamedTensorMetaInterface,std::default_delete<c10::NamedTensorMetaInterface>>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\TensorImpl.h(1768,41): warning C4251: 'c10::TensorImpl::device_opt_': class 'c10::optional<c10::Device>'에서는 struct 'c10::TensorImpl'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\TensorOptions.h(22): message : 'c10::optional<c10::Device>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\TensorImpl.h(1775,26): warning C4251: 'c10::TensorImpl::key_set_': class 'c10::DispatchKeySet'에서는 struct 'c10::TensorImpl'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\DispatchKeySet.h(34): message : 'c10::DispatchKeySet' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\DeprecatedTypePropertiesRegistry.h(26,47): warning C4251: 'at::DeprecatedTypePropertiesRegistry::registry': class 'std::unique_ptr<at::DeprecatedTypeProperties,std::default_delete<at::DeprecatedTypeProperties>>'에서는 class 'at::DeprecatedTypePropertiesRegistry'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\DeprecatedTypePropertiesRegistry.h(24): message : 'std::unique_ptr<at::DeprecatedTypeProperties,std::default_delete<at::DeprecatedTypeProperties>>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\GeneratorImpl.h(80,20): warning C4251: 'c10::GeneratorImpl::mutex_': class 'std::mutex'에서는 struct 'c10::GeneratorImpl'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 'std::mutex' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\GeneratorImpl.h(94,28): warning C4251: 'c10::GeneratorImpl::key_set_': class 'c10::DispatchKeySet'에서는 struct 'c10::GeneratorImpl'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\DispatchKeySet.h(34): message : 'c10::DispatchKeySet' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\Generator.h(133,47): warning C4251: 'at::Generator::impl_': class 'c10::intrusive_ptr<c10::GeneratorImpl,c10::detail::intrusive_target_default_null_type<TTarget>>'에서는 struct 'at::Generator'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              TTarget=c10::GeneratorImpl
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\GeneratorImpl.h(69): message : 'c10::intrusive_ptr<c10::GeneratorImpl,c10::detail::intrusive_target_default_null_type<TTarget>>' 선언을 참조하십시오.
+          with
+          [
+              TTarget=c10::GeneratorImpl
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\NamedTensor.h(67,30): warning C4251: 'at::NamedTensorMeta::names_': class 'std::vector<at::Dimname,std::allocator<at::Dimname>>'에서는 struct 'at::NamedTensorMeta'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\NamedTensor.h(33): message : 'std::vector<at::Dimname,std::allocator<at::Dimname>>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\TensorBody.h(1445,60): warning C4251: 'at::Tensor::impl_': class 'c10::intrusive_ptr<c10::TensorImpl,c10::UndefinedTensorImpl>'에서는 class 'at::Tensor'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\TensorBody.h(93): message : 'c10::intrusive_ptr<c10::TensorImpl,c10::UndefinedTensorImpl>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(181,1): warning C4624: 'c10::constexpr_storage_t<T>': 소멸자가 암시적으로 삭제된 것으로 정의되었습니다.
+          with
+          [
+              T=at::Tensor
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(361): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::constexpr_storage_t<T>'에 대한 참조를 확인하세요.
+          with
+          [
+              T=at::Tensor
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(418): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::trivially_copyable_optimization_optional_base<T>'에 대한 참조를 확인하세요.
+          with
+          [
+              T=at::Tensor
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(418): message : 컴파일되는 별칭 템플릿 인스턴스화 'c10::OptionalBase<at::Tensor>'에 대한 참조를 확인하세요.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\TensorBody.h(631): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::optional<at::Tensor>'에 대한 참조를 확인하세요.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(387,1): warning C4624: 'c10::trivially_copyable_optimization_optional_base<T>': 소멸자가 암시적으로 삭제된 것으로 정의되었습니다.
+          with
+          [
+              T=at::Tensor
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(181,1): warning C4624: 'c10::constexpr_storage_t<T>': 소멸자가 암시적으로 삭제된 것으로 정의되었습니다.
+          with
+          [
+              T=at::Generator
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(361): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::constexpr_storage_t<T>'에 대한 참조를 확인하세요.
+          with
+          [
+              T=at::Generator
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(418): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::trivially_copyable_optimization_optional_base<T>'에 대한 참조를 확인하세요.
+          with
+          [
+              T=at::Generator
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(418): message : 컴파일되는 별칭 템플릿 인스턴스화 'c10::OptionalBase<at::Generator>'에 대한 참조를 확인하세요.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\TensorBody.h(697): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::optional<at::Generator>'에 대한 참조를 확인하세요.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(387,1): warning C4624: 'c10::trivially_copyable_optimization_optional_base<T>': 소멸자가 암시적으로 삭제된 것으로 정의되었습니다.
+          with
+          [
+              T=at::Generator
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\CPUGeneratorImpl.h(34,22): warning C4251: 'at::CPUGeneratorImpl::engine_': class 'at::mt19937_engine'에서는 struct 'at::CPUGeneratorImpl'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\MT19937RNGEngine.h(108): message : 'at::mt19937_engine' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\CPUGeneratorImpl.h(35,49): warning C4251: 'at::CPUGeneratorImpl::next_float_normal_sample_': class 'c10::optional<float>'에서는 struct 'at::CPUGeneratorImpl'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\CPUGeneratorImpl.h(25): message : 'c10::optional<float>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\CPUGeneratorImpl.h(36,51): warning C4251: 'at::CPUGeneratorImpl::next_double_normal_sample_': class 'c10::optional<double>'에서는 struct 'at::CPUGeneratorImpl'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\TensorBody.h(842): message : 'c10::optional<double>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\Context.h(214,26): warning C4251: 'at::Context::thc_init': struct 'std::once_flag'에서는 class 'at::Context'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xcall_once.h(21): message : 'std::once_flag' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\Context.h(215,26): warning C4251: 'at::Context::thh_init': struct 'std::once_flag'에서는 class 'at::Context'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xcall_once.h(21): message : 'std::once_flag' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\Context.h(229,47): warning C4251: 'at::Context::quantized_engine': class 'c10::optional<c10::QEngine>'에서는 class 'at::Context'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\Context.h(229): message : 'c10::optional<c10::QEngine>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\Context.h(230,58): warning C4251: 'at::Context::thc_state': class 'std::unique_ptr<THCState,void (__cdecl *)(THCState *)>'에서는 class 'at::Context'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\detail\CUDAHooksInterface.h(76): message : 'std::unique_ptr<THCState,void (__cdecl *)(THCState *)>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\Context.h(231,58): warning C4251: 'at::Context::thh_state': class 'std::unique_ptr<THHState,void (__cdecl *)(THHState *)>'에서는 class 'at::Context'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\detail\HIPHooksInterface.h(33): message : 'std::unique_ptr<THHState,void (__cdecl *)(THHState *)>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(181,1): warning C4624: 'c10::constexpr_storage_t<T>': 소멸자가 암시적으로 삭제된 것으로 정의되었습니다.
+          with
+          [
+              T=c10::impl::InlineDeviceGuard<c10::impl::VirtualGuardImpl>
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(361): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::constexpr_storage_t<T>'에 대한 참조를 확인하세요.
+          with
+          [
+              T=c10::impl::InlineDeviceGuard<c10::impl::VirtualGuardImpl>
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(418): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::trivially_copyable_optimization_optional_base<T>'에 대한 참조를 확인하세요.
+          with
+          [
+              T=c10::impl::InlineDeviceGuard<c10::impl::VirtualGuardImpl>
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(418): message : 컴파일되는 별칭 템플릿 인스턴스화 'c10::OptionalBase<c10::impl::InlineDeviceGuard<c10::impl::VirtualGuardImpl>>'에 대한 참조를 확인하세요.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\impl\InlineDeviceGuard.h(388): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::optional<c10::impl::InlineDeviceGuard<c10::impl::VirtualGuardImpl>>'에 대한 참조를 확인하세요.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\DeviceGuard.h(168): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::impl::InlineOptionalDeviceGuard<c10::impl::VirtualGuardImpl>'에 대한 참조를 확인하세요.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(387,1): warning C4624: 'c10::trivially_copyable_optimization_optional_base<T>': 소멸자가 암시적으로 삭제된 것으로 정의되었습니다.
+          with
+          [
+              T=c10::impl::InlineDeviceGuard<c10::impl::VirtualGuardImpl>
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\ivalue.h(976,18): warning C4251: 'c10::IValue::payload': union 'c10::IValue::Payload'에서는 struct 'c10::IValue'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\ivalue.h(943): message : 'c10::IValue::Payload' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\ivalue.h(1094,18): warning C4251: 'c10::WeakIValue::payload': union 'c10::IValue::Payload::TriviallyCopyablePayload'에서는 struct 'c10::WeakIValue'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\ivalue.h(949): message : 'c10::IValue::Payload::TriviallyCopyablePayload' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\ivalue.h(1107,51): warning C4251: 'c10::StrongTypePtr::cu_': class 'std::shared_ptr<torch::jit::CompilationUnit>'에서는 struct 'c10::StrongTypePtr'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\ivalue.h(1104): message : 'std::shared_ptr<torch::jit::CompilationUnit>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\ivalue.h(1108,30): warning C4251: 'c10::StrongTypePtr::type_': class 'std::shared_ptr<c10::Type>'에서는 struct 'c10::StrongTypePtr'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\ivalue.h(28): message : 'std::shared_ptr<c10::Type>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type_base.h(67,60): warning C4251: 'std::enable_shared_from_this<c10::Type>::_Wptr': class 'std::weak_ptr<_Ty>'에서는 class 'std::enable_shared_from_this<c10::Type>'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=c10::Type
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\memory(3238): message : 'std::weak_ptr<_Ty>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=c10::Type
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(181,1): warning C4624: 'c10::constexpr_storage_t<T>': 소멸자가 암시적으로 삭제된 것으로 정의되었습니다.
+          with
+          [
+              T=std::string
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(361): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::constexpr_storage_t<T>'에 대한 참조를 확인하세요.
+          with
+          [
+              T=std::string
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(418): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::trivially_copyable_optimization_optional_base<T>'에 대한 참조를 확인하세요.
+          with
+          [
+              T=std::string
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(418): message : 컴파일되는 별칭 템플릿 인스턴스화 'c10::OptionalBase<std::string>'에 대한 참조를 확인하세요.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type_base.h(107): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::optional<std::string>'에 대한 참조를 확인하세요.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(387,1): warning C4624: 'c10::trivially_copyable_optimization_optional_base<T>': 소멸자가 암시적으로 삭제된 것으로 정의되었습니다.
+          with
+          [
+              T=std::string
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(109,70): warning C4251: 'c10::SingleElementType<c10::TypeKind::OptionalType,c10::OptionalType>::elem': class 'std::shared_ptr<c10::Type>'에서는 struct 'c10::SingleElementType<c10::TypeKind::OptionalType,c10::OptionalType>'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\ivalue.h(28): message : 'std::shared_ptr<c10::Type>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(193,38): warning C4251: 'c10::Stride::stride_index_': class 'c10::optional<size_t>'에서는 struct 'c10::Stride'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(183): message : 'c10::optional<size_t>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(194,34): warning C4251: 'c10::Stride::contiguous_': class 'c10::optional<bool>'에서는 struct 'c10::Stride'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\TensorOptions.h(40): message : 'c10::optional<bool>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(195,32): warning C4251: 'c10::Stride::stride_': class 'c10::optional<size_t>'에서는 struct 'c10::Stride'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(183): message : 'c10::optional<size_t>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(257,41): warning C4251: 'c10::ShapeSymbol::num_symbols': struct 'std::atomic<unsigned __int64>'에서는 struct 'c10::ShapeSymbol'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\atomic(2789): message : 'std::atomic<unsigned __int64>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(181,1): warning C4624: 'c10::constexpr_storage_t<T>': 소멸자가 암시적으로 삭제된 것으로 정의되었습니다.
+          with
+          [
+              T=std::vector<c10::ShapeSymbol,std::allocator<c10::ShapeSymbol>>
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(361): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::constexpr_storage_t<T>'에 대한 참조를 확인하세요.
+          with
+          [
+              T=std::vector<c10::ShapeSymbol,std::allocator<c10::ShapeSymbol>>
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(418): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::trivially_copyable_optimization_optional_base<T>'에 대한 참조를 확인하세요.
+          with
+          [
+              T=std::vector<c10::ShapeSymbol,std::allocator<c10::ShapeSymbol>>
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(418): message : 컴파일되는 별칭 템플릿 인스턴스화 'c10::OptionalBase<std::vector<c10::ShapeSymbol,std::allocator<c10::ShapeSymbol>>>'에 대한 참조를 확인하세요.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(355): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::optional<std::vector<c10::ShapeSymbol,std::allocator<c10::ShapeSymbol>>>'에 대한 참조를 확인하세요.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(387,1): warning C4624: 'c10::trivially_copyable_optimization_optional_base<T>': 소멸자가 암시적으로 삭제된 것으로 정의되었습니다.
+          with
+          [
+              T=std::vector<c10::ShapeSymbol,std::allocator<c10::ShapeSymbol>>
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(355,50): warning C4251: 'c10::SymbolicShape::dims_': class 'c10::optional<std::vector<c10::ShapeSymbol,std::allocator<c10::ShapeSymbol>>>'에서는 struct 'c10::SymbolicShape'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(329): message : 'c10::optional<std::vector<c10::ShapeSymbol,std::allocator<c10::ShapeSymbol>>>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(665,45): warning C4251: 'c10::TensorType::scalar_type_': class 'c10::optional<c10::ScalarType>'에서는 struct 'c10::TensorType'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\ScalarTypeToTypeMeta.h(29): message : 'c10::optional<c10::ScalarType>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(666,36): warning C4251: 'c10::TensorType::device_': class 'c10::optional<c10::Device>'에서는 struct 'c10::TensorType'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\TensorOptions.h(22): message : 'c10::optional<c10::Device>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(181,1): warning C4624: 'c10::constexpr_storage_t<T>': 소멸자가 암시적으로 삭제된 것으로 정의되었습니다.
+          with
+          [
+              T=std::vector<c10::optional<c10::Stride>,std::allocator<c10::optional<c10::Stride>>>
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(361): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::constexpr_storage_t<T>'에 대한 참조를 확인하세요.
+          with
+          [
+              T=std::vector<c10::optional<c10::Stride>,std::allocator<c10::optional<c10::Stride>>>
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(418): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::trivially_copyable_optimization_optional_base<T>'에 대한 참조를 확인하세요.
+          with
+          [
+              T=std::vector<c10::optional<c10::Stride>,std::allocator<c10::optional<c10::Stride>>>
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(418): message : 컴파일되는 별칭 템플릿 인스턴스화 'c10::OptionalBase<std::vector<c10::optional<c10::Stride>,std::allocator<c10::optional<c10::Stride>>>>'에 대한 참조를 확인하세요.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(429): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::optional<std::vector<c10::optional<c10::Stride>,std::allocator<c10::optional<c10::Stride>>>>'에 대한 참조를 확인하세요.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(668): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::VaryingShape<c10::Stride>'에 대한 참조를 확인하세요.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(387,1): warning C4624: 'c10::trivially_copyable_optimization_optional_base<T>': 소멸자가 암시적으로 삭제된 것으로 정의되었습니다.
+          with
+          [
+              T=std::vector<c10::optional<c10::Stride>,std::allocator<c10::optional<c10::Stride>>>
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(668,32): warning C4251: 'c10::TensorType::strides_': struct 'c10::VaryingShape<c10::Stride>'에서는 struct 'c10::TensorType'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(453): message : 'c10::VaryingShape<c10::Stride>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(669,37): warning C4251: 'c10::TensorType::requires_grad_': class 'c10::optional<bool>'에서는 struct 'c10::TensorType'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\TensorOptions.h(40): message : 'c10::optional<bool>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(681,33): warning C4251: 'c10::TensorType::undefined_': class 'c10::optional<bool>'에서는 struct 'c10::TensorType'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\TensorOptions.h(40): message : 'c10::optional<bool>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(181,1): warning C4624: 'c10::constexpr_storage_t<T>': 소멸자가 암시적으로 삭제된 것으로 정의되었습니다.
+          with
+          [
+              T=std::vector<c10::optional<int64_t>,std::allocator<c10::optional<int64_t>>>
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(361): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::constexpr_storage_t<T>'에 대한 참조를 확인하세요.
+          with
+          [
+              T=std::vector<c10::optional<int64_t>,std::allocator<c10::optional<int64_t>>>
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(418): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::trivially_copyable_optimization_optional_base<T>'에 대한 참조를 확인하세요.
+          with
+          [
+              T=std::vector<c10::optional<int64_t>,std::allocator<c10::optional<int64_t>>>
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(418): message : 컴파일되는 별칭 템플릿 인스턴스화 'c10::OptionalBase<std::vector<c10::optional<int64_t>,std::allocator<c10::optional<int64_t>>>>'에 대한 참조를 확인하세요.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(429): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::optional<std::vector<c10::optional<int64_t>,std::allocator<c10::optional<int64_t>>>>'에 대한 참조를 확인하세요.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(474): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::VaryingShape<int64_t>'에 대한 참조를 확인하세요.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(387,1): warning C4624: 'c10::trivially_copyable_optimization_optional_base<T>': 소멸자가 암시적으로 삭제된 것으로 정의되었습니다.
+          with
+          [
+              T=std::vector<c10::optional<int64_t>,std::allocator<c10::optional<int64_t>>>
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(181,1): warning C4624: 'c10::constexpr_storage_t<T>': 소멸자가 암시적으로 삭제된 것으로 정의되었습니다.
+          with
+          [
+              T=std::vector<int64_t,std::allocator<int64_t>>
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(361): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::constexpr_storage_t<T>'에 대한 참조를 확인하세요.
+          with
+          [
+              T=std::vector<int64_t,std::allocator<int64_t>>
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(418): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::trivially_copyable_optimization_optional_base<T>'에 대한 참조를 확인하세요.
+          with
+          [
+              T=std::vector<int64_t,std::allocator<int64_t>>
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(418): message : 컴파일되는 별칭 템플릿 인스턴스화 'c10::OptionalBase<std::vector<int64_t,std::allocator<int64_t>>>'에 대한 참조를 확인하세요.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(572): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::optional<std::vector<int64_t,std::allocator<int64_t>>>'에 대한 참조를 확인하세요.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(387,1): warning C4624: 'c10::trivially_copyable_optimization_optional_base<T>': 소멸자가 암시적으로 삭제된 것으로 정의되었습니다.
+          with
+          [
+              T=std::vector<int64_t,std::allocator<int64_t>>
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(689,62): warning C4251: 'c10::SingleElementType<c10::TypeKind::ListType,c10::ListType>::elem': class 'std::shared_ptr<c10::Type>'에서는 struct 'c10::SingleElementType<c10::TypeKind::ListType,c10::ListType>'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\ivalue.h(28): message : 'std::shared_ptr<c10::Type>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(807,29): warning C4251: 'c10::DictType::types': class 'std::vector<c10::TypePtr,std::allocator<c10::TypePtr>>'에서는 struct 'c10::DictType'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type_base.h(204): message : 'std::vector<c10::TypePtr,std::allocator<c10::TypePtr>>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(815,66): warning C4251: 'c10::SingleElementType<c10::TypeKind::FutureType,c10::FutureType>::elem': class 'std::shared_ptr<c10::Type>'에서는 struct 'c10::SingleElementType<c10::TypeKind::FutureType,c10::FutureType>'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\ivalue.h(28): message : 'std::shared_ptr<c10::Type>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(857,62): warning C4251: 'c10::SingleElementType<c10::TypeKind::RRefType,c10::RRefType>::elem': class 'std::shared_ptr<c10::Type>'에서는 struct 'c10::SingleElementType<c10::TypeKind::RRefType,c10::RRefType>'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\ivalue.h(28): message : 'std::shared_ptr<c10::Type>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(181,1): warning C4624: 'c10::constexpr_storage_t<T>': 소멸자가 암시적으로 삭제된 것으로 정의되었습니다.
+          with
+          [
+              T=c10::QualifiedName
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(361): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::constexpr_storage_t<T>'에 대한 참조를 확인하세요.
+          with
+          [
+              T=c10::QualifiedName
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(418): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::trivially_copyable_optimization_optional_base<T>'에 대한 참조를 확인하세요.
+          with
+          [
+              T=c10::QualifiedName
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(418): message : 컴파일되는 별칭 템플릿 인스턴스화 'c10::OptionalBase<c10::QualifiedName>'에 대한 참조를 확인하세요.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(907): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::optional<c10::QualifiedName>'에 대한 참조를 확인하세요.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(387,1): warning C4624: 'c10::trivially_copyable_optimization_optional_base<T>': 소멸자가 암시적으로 삭제된 것으로 정의되었습니다.
+          with
+          [
+              T=c10::QualifiedName
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(907,37): warning C4251: 'c10::NamedType::name_': class 'c10::optional<c10::QualifiedName>'에서는 struct 'c10::NamedType'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(891): message : 'c10::optional<c10::QualifiedName>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(990,33): warning C4251: 'c10::TupleType::elements_': class 'std::vector<c10::TypePtr,std::allocator<c10::TypePtr>>'에서는 struct 'c10::TupleType'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type_base.h(204): message : 'std::vector<c10::TypePtr,std::allocator<c10::TypePtr>>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(992,42): warning C4251: 'c10::TupleType::schema_': class 'std::shared_ptr<c10::FunctionSchema>'에서는 struct 'c10::TupleType'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(958): message : 'std::shared_ptr<c10::FunctionSchema>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(1074,22): warning C4251: 'c10::EnumType::value_type_': class 'std::shared_ptr<c10::Type>'에서는 struct 'c10::EnumType'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\ivalue.h(28): message : 'std::shared_ptr<c10::Type>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(1075,48): warning C4251: 'c10::EnumType::enum_names_values_': class 'std::vector<c10::EnumNameValue,std::allocator<c10::EnumNameValue>>'에서는 struct 'c10::EnumType'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(1004): message : 'std::vector<c10::EnumNameValue,std::allocator<c10::EnumNameValue>>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(1076,51): warning C4251: 'c10::EnumType::cu_': class 'std::weak_ptr<torch::jit::CompilationUnit>'에서는 struct 'c10::EnumType'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(1004): message : 'std::weak_ptr<torch::jit::CompilationUnit>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(1866,25): warning C4251: 'c10::ClassAttribute::attributeType_': class 'std::shared_ptr<c10::Type>'에서는 struct 'c10::ClassAttribute'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\ivalue.h(28): message : 'std::shared_ptr<c10::Type>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(1867,29): warning C4251: 'c10::ClassAttribute::attributeName_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 struct 'c10::ClassAttribute'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(2228,42): warning C4251: 'c10::ClassType::constantNames_': class 'std::vector<std::string,std::allocator<std::string>>'에서는 struct 'c10::ClassType'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Exception.h(35): message : 'std::vector<std::string,std::allocator<std::string>>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(2229,38): warning C4251: 'c10::ClassType::constantValues_': class 'std::vector<c10::IValue,std::allocator<c10::IValue>>'에서는 struct 'c10::ClassType'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\List.h(24): message : 'std::vector<c10::IValue,std::allocator<c10::IValue>>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(2231,51): warning C4251: 'c10::ClassType::compilation_unit_': class 'std::weak_ptr<torch::jit::CompilationUnit>'에서는 struct 'c10::ClassType'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(1004): message : 'std::weak_ptr<torch::jit::CompilationUnit>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(2234,42): warning C4251: 'c10::ClassType::attributes_': class 'std::vector<c10::ClassAttribute,std::allocator<c10::ClassAttribute>>'에서는 struct 'c10::ClassType'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(2142): message : 'std::vector<c10::ClassAttribute,std::allocator<c10::ClassAttribute>>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(2237,39): warning C4251: 'c10::ClassType::attributeTypes_': class 'std::vector<c10::TypePtr,std::allocator<c10::TypePtr>>'에서는 struct 'c10::ClassType'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type_base.h(204): message : 'std::vector<c10::TypePtr,std::allocator<c10::TypePtr>>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(2240,46): warning C4251: 'c10::ClassType::methods_': class 'std::vector<torch::jit::Function *,std::allocator<torch::jit::Function *>>'에서는 struct 'c10::ClassType'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(1917): message : 'std::vector<torch::jit::Function *,std::allocator<torch::jit::Function *>>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(2243,52): warning C4251: 'c10::ClassType::forward_hooks_': class 'std::vector<torch::jit::Function *,std::allocator<torch::jit::Function *>>'에서는 struct 'c10::ClassType'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(1917): message : 'std::vector<torch::jit::Function *,std::allocator<torch::jit::Function *>>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(2244,56): warning C4251: 'c10::ClassType::forward_pre_hooks_': class 'std::vector<torch::jit::Function *,std::allocator<torch::jit::Function *>>'에서는 struct 'c10::ClassType'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(1917): message : 'std::vector<torch::jit::Function *,std::allocator<torch::jit::Function *>>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(2247,36): warning C4251: 'c10::ClassType::properties_': class 'std::vector<c10::ClassType::Property,std::allocator<c10::ClassType::Property>>'에서는 struct 'c10::ClassType'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(2247): message : 'std::vector<c10::ClassType::Property,std::allocator<c10::ClassType::Property>>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(2252,27): warning C4251: 'c10::ClassType::doc_string_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 struct 'c10::ClassType'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(2310,56): warning C4251: 'c10::InterfaceType::methods_': class 'std::shared_ptr<std::vector<c10::FunctionSchema,std::allocator<c10::FunctionSchema>>>'에서는 struct 'c10::InterfaceType'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(2310): message : 'std::shared_ptr<std::vector<c10::FunctionSchema,std::allocator<c10::FunctionSchema>>>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\ivalue_inl.h(216,25): warning C4251: 'c10::ivalue::ConstantString::str_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 struct 'c10::ivalue::ConstantString'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\ivalue_inl.h(236,32): warning C4251: 'c10::ivalue::Tuple::elements_': class 'std::vector<c10::IValue,std::allocator<c10::IValue>>'에서는 struct 'c10::ivalue::Tuple'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\List.h(24): message : 'std::vector<c10::IValue,std::allocator<c10::IValue>>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\ivalue_inl.h(238,12): warning C4251: 'c10::ivalue::Tuple::type_': class 'std::shared_ptr<c10::TupleType>'에서는 struct 'c10::ivalue::Tuple'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\jit_type.h(924): message : 'std::shared_ptr<c10::TupleType>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\ivalue_inl.h(310,62): warning C4275: DLL 인터페이스가 아닌 class 'std::exception'이(가) DLL 인터페이스 struct 'c10::ivalue::Future::FutureError'의 기본으로 사용되었습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vcruntime_exception.h(48): message : 'std::exception' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\ivalue_inl.h(310): message : 'c10::ivalue::Future::FutureError' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\ivalue_inl.h(320,26): warning C4251: 'c10::ivalue::Future::FutureError::error_msg': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 struct 'c10::ivalue::Future::FutureError'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\ivalue_inl.h(561,28): warning C4251: 'c10::ivalue::Future::mutex_': class 'std::mutex'에서는 struct 'c10::ivalue::Future'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 'std::mutex' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\ivalue_inl.h(562,31): warning C4251: 'c10::ivalue::Future::completed_': struct 'std::atomic<bool>'에서는 struct 'c10::ivalue::Future'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\atomic(2777): message : 'std::atomic<bool>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\ivalue_inl.h(563,39): warning C4251: 'c10::ivalue::Future::finished_cv_': class 'std::condition_variable'에서는 struct 'c10::ivalue::Future'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\mutex(575): message : 'std::condition_variable' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\ivalue_inl.h(566,16): warning C4251: 'c10::ivalue::Future::type_': class 'std::shared_ptr<c10::Type>'에서는 struct 'c10::ivalue::Future'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\ivalue.h(28): message : 'std::shared_ptr<c10::Type>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\ivalue_inl.h(567,52): warning C4251: 'c10::ivalue::Future::callbacks_': class 'std::vector<std::function<void (void)>,std::allocator<std::function<void (void)>>>'에서는 struct 'c10::ivalue::Future'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\ivalue_inl.h(567): message : 'std::vector<std::function<void (void)>,std::allocator<std::function<void (void)>>>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\ivalue_inl.h(568,27): warning C4251: 'c10::ivalue::Future::eptr_': class 'std::exception_ptr'에서는 struct 'c10::ivalue::Future'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\exception(214): message : 'std::exception_ptr' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\ivalue_inl.h(665,29): warning C4251: 'c10::ivalue::Object::slots_': class 'std::vector<c10::IValue,std::allocator<c10::IValue>>'에서는 struct 'c10::ivalue::Object'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\List.h(24): message : 'std::vector<c10::IValue,std::allocator<c10::IValue>>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\ivalue_inl.h(760,1): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\ivalue_inl.h(763,1): warning C4244: 'return': 'int64_t'에서 'unsigned char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\ivalue_inl.h(764,1): warning C4244: 'return': 'int64_t'에서 'signed char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\ivalue_inl.h(765,1): warning C4244: 'return': 'int64_t'에서 'unsigned short'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\ivalue_inl.h(766,1): warning C4244: 'return': 'int64_t'에서 'short'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\ivalue_inl.h(767,1): warning C4244: 'return': 'int64_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\ivalue_inl.h(768,1): warning C4244: 'return': 'int64_t'에서 'uint32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\ivalue_inl.h(770,1): warning C4244: 'return': 'int64_t'에서 'c10::detail::_guarded_unsigned_long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\record_function.h(73,46): warning C4251: 'at::StringView::owned_str_ptr_': class 'std::shared_ptr<std::string>'에서는 struct 'at::StringView'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\record_function.h(73): message : 'std::shared_ptr<std::string>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(181,1): warning C4624: 'c10::constexpr_storage_t<T>': 소멸자가 암시적으로 삭제된 것으로 정의되었습니다.
+          with
+          [
+              T=c10::OperatorName
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(361): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::constexpr_storage_t<T>'에 대한 참조를 확인하세요.
+          with
+          [
+              T=c10::OperatorName
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(418): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::trivially_copyable_optimization_optional_base<T>'에 대한 참조를 확인하세요.
+          with
+          [
+              T=c10::OperatorName
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(418): message : 컴파일되는 별칭 템플릿 인스턴스화 'c10::OptionalBase<c10::OperatorName>'에 대한 참조를 확인하세요.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\record_function.h(266): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::optional<c10::OperatorName>'에 대한 참조를 확인하세요.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(387,1): warning C4624: 'c10::trivially_copyable_optimization_optional_base<T>': 소멸자가 암시적으로 삭제된 것으로 정의되었습니다.
+          with
+          [
+              T=c10::OperatorName
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\record_function.h(282,32): warning C4251: 'at::RecordFunction::state_': class 'std::unique_ptr<at::RecordFunction::State,std::default_delete<at::RecordFunction::State>>'에서는 struct 'at::RecordFunction'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\record_function.h(282): message : 'std::unique_ptr<at::RecordFunction::State,std::default_delete<at::RecordFunction::State>>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\record_function.h(543,48): warning C4251: 'at::RecordFunctionTLS::sorted_tls_callbacks_': class 'std::vector<std::pair<at::RecordFunctionCallback,at::CallbackHandle>,std::allocator<std::pair<at::RecordFunctionCallback,at::CallbackHandle>>>'에서는 struct 'at::RecordFunctionTLS'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\record_function.h(449): message : 'std::vector<std::pair<at::RecordFunctionCallback,at::CallbackHandle>,std::allocator<std::pair<at::RecordFunctionCallback,at::CallbackHandle>>>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\TensorGeometry.h(56,30): warning C4251: 'at::TensorGeometry::sizes_': class 'std::vector<int64_t,std::allocator<int64_t>>'에서는 struct 'at::TensorGeometry'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\MemoryFormat.h(56): message : 'std::vector<int64_t,std::allocator<int64_t>>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\TensorGeometry.h(57,32): warning C4251: 'at::TensorGeometry::strides_': class 'std::vector<int64_t,std::allocator<int64_t>>'에서는 struct 'at::TensorGeometry'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\MemoryFormat.h(56): message : 'std::vector<int64_t,std::allocator<int64_t>>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\TensorNames.h(40,28): warning C4251: 'at::namedinference::TensorName::origin_': class 'c10::ArrayRef<at::Dimname>'에서는 struct 'at::namedinference::TensorName'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\core\Dimname.h(36): message : 'c10::ArrayRef<at::Dimname>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\TensorNames.h(70,23): warning C4251: 'at::namedinference::TensorNames::names_': class 'c10::SmallVector<at::namedinference::TensorName,10>'에서는 struct 'at::namedinference::TensorNames'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\TensorNames.h(49): message : 'c10::SmallVector<at::namedinference::TensorName,10>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\TensorIterator.h(86,28): warning C4251: 'at::OperandInfo::stride_bytes': class 'c10::SmallVector<int64_t,6>'에서는 struct 'at::OperandInfo'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\TensorIterator.h(74): message : 'c10::SmallVector<int64_t,6>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\TensorIterator.h(352,19): warning C4251: 'at::TensorIteratorBase::shape_': class 'c10::SmallVector<int64_t,5>'에서는 struct 'at::TensorIteratorBase'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\TensorImpl.h(1111): message : 'c10::SmallVector<int64_t,5>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\TensorIterator.h(362,18): warning C4251: 'at::TensorIteratorBase::perm_': class 'c10::SmallVector<int64_t,5>'에서는 struct 'at::TensorIteratorBase'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\TensorImpl.h(1111): message : 'c10::SmallVector<int64_t,5>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\TensorIterator.h(371,26): warning C4251: 'at::TensorIteratorBase::view_offsets_': class 'c10::SmallVector<int64_t,5>'에서는 struct 'at::TensorIteratorBase'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\TensorImpl.h(1111): message : 'c10::SmallVector<int64_t,5>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\TensorIterator.h(374,20): warning C4251: 'at::TensorIteratorBase::names_': class 'c10::SmallVector<at::Dimname,5>'에서는 struct 'at::TensorIteratorBase'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\NamedTensorUtils.h(11): message : 'c10::SmallVector<at::Dimname,5>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\TensorIterator.h(385,40): warning C4251: 'at::TensorIteratorBase::operands_': class 'c10::SmallVector<at::OperandInfo,4>'에서는 struct 'at::TensorIteratorBase'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\TensorIterator.h(385): message : 'c10::SmallVector<at::OperandInfo,4>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\TensorIterator.h(169,20): warning C4267: 'return': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\TensorIterator.h(172,24): warning C4267: 'return': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\TensorIterator.h(512,34): warning C4251: 'at::TensorIteratorConfig::tensors_': class 'c10::SmallVector<at::Tensor,4>'에서는 class 'at::TensorIteratorConfig'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\TensorIterator.h(512): message : 'c10::SmallVector<at::Tensor,4>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(181,1): warning C4624: 'c10::constexpr_storage_t<T>': 소멸자가 암시적으로 삭제된 것으로 정의되었습니다.
+          with
+          [
+              T=at::DimVector
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(361): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::constexpr_storage_t<T>'에 대한 참조를 확인하세요.
+          with
+          [
+              T=at::DimVector
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(418): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::trivially_copyable_optimization_optional_base<T>'에 대한 참조를 확인하세요.
+          with
+          [
+              T=at::DimVector
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(418): message : 컴파일되는 별칭 템플릿 인스턴스화 'c10::OptionalBase<at::DimVector>'에 대한 참조를 확인하세요.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\TensorIterator.h(516): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::optional<at::DimVector>'에 대한 참조를 확인하세요.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(387,1): warning C4624: 'c10::trivially_copyable_optimization_optional_base<T>': 소멸자가 암시적으로 삭제된 것으로 정의되었습니다.
+          with
+          [
+              T=at::DimVector
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\TensorIterator.h(516,42): warning C4251: 'at::TensorIteratorConfig::static_shape_': class 'c10::optional<at::DimVector>'에서는 class 'at::TensorIteratorConfig'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\TensorIterator.h(516): message : 'c10::optional<at::DimVector>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\TensorIterator.h(517,73): warning C4251: 'at::TensorIteratorConfig::static_dtype_and_device_': class 'c10::optional<std::pair<c10::ScalarType,c10::Device>>'에서는 class 'at::TensorIteratorConfig'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\TensorIterator.h(517): message : 'c10::optional<std::pair<c10::ScalarType,c10::Device>>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\TensorIterator.h(552,53): warning C4251: 'at::SplitUntil32Bit::iterator::vec': class 'std::vector<std::unique_ptr<at::TensorIterator,std::default_delete<at::TensorIterator>>,std::allocator<std::unique_ptr<at::TensorIterator,std::default_delete<at::TensorIterator>>>>'에서는 struct 'at::SplitUntil32Bit::iterator'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\ATen\TensorIterator.h(552): message : 'std::vector<std::unique_ptr<at::TensorIterator,std::default_delete<at::TensorIterator>>,std::allocator<std::unique_ptr<at::TensorIterator,std::default_delete<at::TensorIterator>>>>' 선언을 참조하십시오.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\TypeCast.h(39,62): warning C4244: '인수': 'src_t'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              src_t=int64_t
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\TypeCast.h(37): message : 클래스 템플릿 멤버 함수 'dest_t c10::static_cast_with_inter_type<dest_t,From>::apply(src_t)'을(를) 컴파일하는 중입니다.
+          with
+          [
+              dest_t=c10::BFloat16,
+              From=int64_t,
+              src_t=int64_t
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\TypeCast.h(157): message : 컴파일되는 함수 템플릿 인스턴스화 'dest_t c10::static_cast_with_inter_type<dest_t,From>::apply(src_t)'에 대한 참조를 확인하세요.
+          with
+          [
+              dest_t=c10::BFloat16,
+              From=int64_t,
+              src_t=int64_t
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\TypeCast.h(157): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::static_cast_with_inter_type<To,From>'에 대한 참조를 확인하세요.
+          with
+          [
+              To=c10::BFloat16,
+              From=int64_t
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\TypeCast.h(169): message : 컴파일되는 함수 템플릿 인스턴스화 'To c10::convert<To,From>(From)'에 대한 참조를 확인하세요.
+          with
+          [
+              To=c10::BFloat16,
+              From=int64_t
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\Scalar.h(63): message : 컴파일되는 함수 템플릿 인스턴스화 'To c10::checked_convert<c10::BFloat16,int64_t>(From,const char *)'에 대한 참조를 확인하세요.
+          with
+          [
+              To=c10::BFloat16,
+              From=int64_t
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\TypeCast.h(39,62): warning C4244: '인수': 'T'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              T=double
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\TypeCast.h(37): message : 클래스 템플릿 멤버 함수 'dest_t c10::static_cast_with_inter_type<dest_t,From>::apply(src_t)'을(를) 컴파일하는 중입니다.
+          with
+          [
+              dest_t=c10::BFloat16,
+              From=c10::complex<double>,
+              src_t=c10::complex<double>
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\TypeCast.h(157): message : 컴파일되는 함수 템플릿 인스턴스화 'dest_t c10::static_cast_with_inter_type<dest_t,From>::apply(src_t)'에 대한 참조를 확인하세요.
+          with
+          [
+              dest_t=c10::BFloat16,
+              From=c10::complex<double>,
+              src_t=c10::complex<double>
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\TypeCast.h(157): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::static_cast_with_inter_type<To,From>'에 대한 참조를 확인하세요.
+          with
+          [
+              To=c10::BFloat16,
+              From=c10::complex<double>
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\TypeCast.h(169): message : 컴파일되는 함수 템플릿 인스턴스화 'To c10::convert<To,From>(From)'에 대한 참조를 확인하세요.
+          with
+          [
+              To=c10::BFloat16,
+              From=c10::complex<double>
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\Scalar.h(63): message : 컴파일되는 함수 템플릿 인스턴스화 'To c10::checked_convert<c10::BFloat16,c10::complex<double>>(From,const char *)'에 대한 참조를 확인하세요.
+          with
+          [
+              To=c10::BFloat16,
+              From=c10::complex<double>
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\TypeCast.h(39,62): warning C4244: '인수': 'src_t'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              src_t=double
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\TypeCast.h(37): message : 클래스 템플릿 멤버 함수 'dest_t c10::static_cast_with_inter_type<dest_t,From>::apply(src_t)'을(를) 컴파일하는 중입니다.
+          with
+          [
+              dest_t=c10::BFloat16,
+              From=double,
+              src_t=double
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\TypeCast.h(157): message : 컴파일되는 함수 템플릿 인스턴스화 'dest_t c10::static_cast_with_inter_type<dest_t,From>::apply(src_t)'에 대한 참조를 확인하세요.
+          with
+          [
+              dest_t=c10::BFloat16,
+              From=double,
+              src_t=double
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\TypeCast.h(157): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::static_cast_with_inter_type<To,From>'에 대한 참조를 확인하세요.
+          with
+          [
+              To=c10::BFloat16,
+              From=double
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\TypeCast.h(169): message : 컴파일되는 함수 템플릿 인스턴스화 'To c10::convert<To,From>(From)'에 대한 참조를 확인하세요.
+          with
+          [
+              To=c10::BFloat16,
+              From=double
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\Scalar.h(63): message : 컴파일되는 함수 템플릿 인스턴스화 'To c10::checked_convert<c10::BFloat16,double>(From,const char *)'에 대한 참조를 확인하세요.
+          with
+          [
+              To=c10::BFloat16,
+              From=double
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\TypeCast.h(39,62): warning C4244: '인수': 'src_t'에서 'const T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              src_t=int64_t
+          ]
+          and
+          [
+              T=double
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\TypeCast.h(37): message : 클래스 템플릿 멤버 함수 'dest_t c10::static_cast_with_inter_type<dest_t,From>::apply(src_t)'을(를) 컴파일하는 중입니다.
+          with
+          [
+              dest_t=c10::complex<double>,
+              From=int64_t,
+              src_t=int64_t
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\TypeCast.h(157): message : 컴파일되는 함수 템플릿 인스턴스화 'dest_t c10::static_cast_with_inter_type<dest_t,From>::apply(src_t)'에 대한 참조를 확인하세요.
+          with
+          [
+              dest_t=c10::complex<double>,
+              From=int64_t,
+              src_t=int64_t
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\TypeCast.h(157): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::static_cast_with_inter_type<To,From>'에 대한 참조를 확인하세요.
+          with
+          [
+              To=c10::complex<double>,
+              From=int64_t
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\TypeCast.h(169): message : 컴파일되는 함수 템플릿 인스턴스화 'To c10::convert<To,From>(From)'에 대한 참조를 확인하세요.
+          with
+          [
+              To=c10::complex<double>,
+              From=int64_t
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\Scalar.h(63): message : 컴파일되는 함수 템플릿 인스턴스화 'To c10::checked_convert<c10::complex<double>,int64_t>(From,const char *)'에 대한 참조를 확인하세요.
+          with
+          [
+              To=c10::complex<double>,
+              From=int64_t
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\TypeCast.h(39,62): warning C4244: '인수': 'src_t'에서 'const T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              src_t=int64_t
+          ]
+          and
+          [
+              T=float
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\TypeCast.h(37): message : 클래스 템플릿 멤버 함수 'dest_t c10::static_cast_with_inter_type<dest_t,From>::apply(src_t)'을(를) 컴파일하는 중입니다.
+          with
+          [
+              dest_t=c10::complex<float>,
+              From=int64_t,
+              src_t=int64_t
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\TypeCast.h(157): message : 컴파일되는 함수 템플릿 인스턴스화 'dest_t c10::static_cast_with_inter_type<dest_t,From>::apply(src_t)'에 대한 참조를 확인하세요.
+          with
+          [
+              dest_t=c10::complex<float>,
+              From=int64_t,
+              src_t=int64_t
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\TypeCast.h(157): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::static_cast_with_inter_type<To,From>'에 대한 참조를 확인하세요.
+          with
+          [
+              To=c10::complex<float>,
+              From=int64_t
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\TypeCast.h(169): message : 컴파일되는 함수 템플릿 인스턴스화 'To c10::convert<To,From>(From)'에 대한 참조를 확인하세요.
+          with
+          [
+              To=c10::complex<float>,
+              From=int64_t
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\Scalar.h(63): message : 컴파일되는 함수 템플릿 인스턴스화 'To c10::checked_convert<c10::complex<float>,int64_t>(From,const char *)'에 대한 참조를 확인하세요.
+          with
+          [
+              To=c10::complex<float>,
+              From=int64_t
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\TypeCast.h(39,62): warning C4244: '인수': 'src_t'에서 'const T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              src_t=double
+          ]
+          and
+          [
+              T=float
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\TypeCast.h(37): message : 클래스 템플릿 멤버 함수 'dest_t c10::static_cast_with_inter_type<dest_t,From>::apply(src_t)'을(를) 컴파일하는 중입니다.
+          with
+          [
+              dest_t=c10::complex<float>,
+              From=double,
+              src_t=double
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\TypeCast.h(157): message : 컴파일되는 함수 템플릿 인스턴스화 'dest_t c10::static_cast_with_inter_type<dest_t,From>::apply(src_t)'에 대한 참조를 확인하세요.
+          with
+          [
+              dest_t=c10::complex<float>,
+              From=double,
+              src_t=double
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\TypeCast.h(157): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::static_cast_with_inter_type<To,From>'에 대한 참조를 확인하세요.
+          with
+          [
+              To=c10::complex<float>,
+              From=double
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\TypeCast.h(169): message : 컴파일되는 함수 템플릿 인스턴스화 'To c10::convert<To,From>(From)'에 대한 참조를 확인하세요.
+          with
+          [
+              To=c10::complex<float>,
+              From=double
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\Scalar.h(63): message : 컴파일되는 함수 템플릿 인스턴스화 'To c10::checked_convert<c10::complex<float>,double>(From,const char *)'에 대한 참조를 확인하세요.
+          with
+          [
+              To=c10::complex<float>,
+              From=double
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\complex.h(147,10): warning C4244: '초기화 중': 'const T'에서 'T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              T=double
+          ]
+          and
+          [
+              T=float
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\TypeCast.h(39): message : 컴파일되는 함수 템플릿 인스턴스화 'c10::complex<float>::complex<T>(const c10::complex<double> &)'에 대한 참조를 확인하세요.
+          with
+          [
+              T=float
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\TypeCast.h(39): message : 컴파일되는 함수 템플릿 인스턴스화 'c10::complex<float>::complex<T>(const c10::complex<double> &)'에 대한 참조를 확인하세요.
+          with
+          [
+              T=float
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\TypeCast.h(37): message : 클래스 템플릿 멤버 함수 'dest_t c10::static_cast_with_inter_type<dest_t,From>::apply(src_t)'을(를) 컴파일하는 중입니다.
+          with
+          [
+              dest_t=c10::complex<float>,
+              From=c10::complex<double>,
+              src_t=c10::complex<double>
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\TypeCast.h(157): message : 컴파일되는 함수 템플릿 인스턴스화 'dest_t c10::static_cast_with_inter_type<dest_t,From>::apply(src_t)'에 대한 참조를 확인하세요.
+          with
+          [
+              dest_t=c10::complex<float>,
+              From=c10::complex<double>,
+              src_t=c10::complex<double>
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\TypeCast.h(157): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::static_cast_with_inter_type<To,From>'에 대한 참조를 확인하세요.
+          with
+          [
+              To=c10::complex<float>,
+              From=c10::complex<double>
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\TypeCast.h(169): message : 컴파일되는 함수 템플릿 인스턴스화 'To c10::convert<To,From>(From)'에 대한 참조를 확인하세요.
+          with
+          [
+              To=c10::complex<float>,
+              From=c10::complex<double>
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\Scalar.h(63): message : 컴파일되는 함수 템플릿 인스턴스화 'To c10::checked_convert<c10::complex<float>,c10::complex<double>>(From,const char *)'에 대한 참조를 확인하세요.
+          with
+          [
+              To=c10::complex<float>,
+              From=c10::complex<double>
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\complex.h(147,30): warning C4244: '초기화 중': 'const T'에서 'T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              T=double
+          ]
+          and
+          [
+              T=float
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(178,39): warning C4244: '인수': 'int16_t'에서 'c10::DeviceIndex'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(374): message : 컴파일되는 함수 템플릿 인스턴스화 'c10::constexpr_storage_t<T>::constexpr_storage_t<c10::DeviceType,int16_t&>(c10::DeviceType &&,int16_t &)'에 대한 참조를 확인하세요.
+          with
+          [
+              T=c10::Device
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(374): message : 컴파일되는 함수 템플릿 인스턴스화 'c10::constexpr_storage_t<T>::constexpr_storage_t<c10::DeviceType,int16_t&>(c10::DeviceType &&,int16_t &)'에 대한 참조를 확인하세요.
+          with
+          [
+              T=c10::Device
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(546): message : 컴파일되는 함수 템플릿 인스턴스화 'c10::trivially_copyable_optimization_optional_base<T>::trivially_copyable_optimization_optional_base<c10::DeviceType,int16_t&>(c10::in_place_t,c10::DeviceType &&,int16_t &)'에 대한 참조를 확인하세요.
+          with
+          [
+              T=c10::Device
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\util\Optional.h(546): message : 컴파일되는 함수 템플릿 인스턴스화 'c10::trivially_copyable_optimization_optional_base<T>::trivially_copyable_optimization_optional_base<c10::DeviceType,int16_t&>(c10::in_place_t,c10::DeviceType &&,int16_t &)'에 대한 참조를 확인하세요.
+          with
+          [
+              T=c10::Device
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\TensorOptions.h(193): message : 컴파일되는 함수 템플릿 인스턴스화 'c10::optional<c10::Device>::optional<_Ty,int16_t&>(c10::in_place_t,_Ty &&,int16_t &)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Ty=c10::DeviceType
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\TensorOptions.h(193): message : 컴파일되는 함수 템플릿 인스턴스화 'c10::optional<c10::Device>::optional<_Ty,int16_t&>(c10::in_place_t,_Ty &&,int16_t &)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Ty=c10::DeviceType
+          ]
+D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\c10\core\TensorOptions.h(202): message : 컴파일되는 함수 템플릿 인스턴스화 'c10::TensorOptions c10::TensorOptions::device<c10::DeviceType,int16_t&>(c10::DeviceType &&,int16_t &) noexcept const'에 대한 참조를 확인하세요.
+  PyTorchTest.vcxproj -> D:\matlab\ReinforcementLearning\cpp\Source\PyTorchTest\x64\Debug\PyTorchTest.exe
