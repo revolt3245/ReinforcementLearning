@@ -116,7 +116,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>false</ConformanceMode>
-      <AdditionalIncludeDirectories>D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include;D:\PyTorchCppAPI\libtorch-win-shared-with-deps-debug-1.8.1+cu111\libtorch\include\torch\csrc\api\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
